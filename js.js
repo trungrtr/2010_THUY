@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const letterTextElement = document.getElementById('letter-text');
     const backgroundMusic = document.getElementById('background-music');
 
-    const letterContent = "Nhân ngày 20/10 .Trung Chúc Thùy có một ngày thật ý nghĩa và luôn xinh đẹp nhé!";
+    const letterContent = "Nhân ngày 20/10, Trung chỉ muốn chúc Thùy luôn vui vẻ, bình yên và được làm mọi điều Thùy thích. Mong Thùy có một ngày 20-10 thật vui vẻ và ý nghĩa! LOVE<3";
 
     function typeWriter(text, element, index) {
         element.classList.add('typing');
