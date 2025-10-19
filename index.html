@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Món Quà Đặc Biệt</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="gift-box" class="box">
+            <h1>Tặng nè! 💝</h1>
+            
+            <img src="anh tho.png" alt="Hộp quà">
+        </div>
+
+        <div id="card" class="box" style="opacity: 0; display: none;">
+            <h1 class="card-title hidden-initially">Happy Women's Day</h1>
+            <h1 class="card-title hidden-initially">Chúc mừng ngày 20/10</h1>
+            <img src="hoa.jpg" alt="Bó hoa" class="flowers">
+            
+            <div id="icon-container" class="hidden-initially">
+                <div id="letter-icon" class="icon">
+                    <img src="thu.png" alt="Lá thư tình">
+                </div>
+                <div id="image-icon" class="icon">
+                    📸
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="letter-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Gửi Thùy 💝:</h2>
+            <p id="letter-text"></p>
+        </div>
+    </div>
+
+    <div id="image-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img src="thuy-removebg-preview.png" class="kỷ-niệm-ảnh">
+            <h1 class="image-caption" style="font-size: 2cm;">LÈ 😜</h1>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
